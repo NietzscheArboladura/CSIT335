@@ -1,0 +1,611 @@
+{% load static %}
+
+<link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/css/boostrap.min.css' %}">
+<link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/css/css/mixins/boostrap.min.css' %}">
+<link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/fonts/flaticon/font/boostrap.min.css' %}">
+<link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/fonts/flaticon/license/boostrap.min.css' %}">
+<link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/fonts/icomoon/boostrap.min.css' %}">
+<link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/fonts/ionicons/css/boostrap.min.css' %}">
+<link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/fonts/ionicons/fonts/boostrap.min.css' %}">
+<link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/fonts/open-iconic/boostrap.min.css' %}">
+<link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/images/boostrap.min.css' %}">
+<link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/js/boostrap.min.css' %}">
+<link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/scss/bootstrap/mixins/boostrap.min.css' %}">
+<link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/scss/bootstrap/utilities/boostrap.min.css' %}">
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Paglakbay</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/css/open-iconic-boostrap.min.css' %}">
+
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/css/animate.css' %}">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/css/owl.carousel.min.css' %}">
+
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/css/magnific-popup.css' %}">
+
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/css/aos.css' %}">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/css/ionicons.min.css' %}">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/css/flaticon.css' %}">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/css/icomoon.css' %}">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel= "stylesheet" type= "text/css" href="{% static 'myapp1/ecoland-master/css/style.css' %}">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Paglakbay</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="index" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="index" class="nav-link"><span>Features</span></a></li>
+	          <li class="nav-item"><a href="index" class="nav-link"><span>About Us</span></a></li>
+	          <!-- <li class="nav-item"><a href="#destination-section" class="nav-link"><span>Destination</span></a></li> -->
+	          <!-- <li class="nav-item"><a href="#hotel-section" class="nav-link"><span>Hotel</span></a></li> -->
+	          <!-- <li class="nav-item"><a href="#restaurant-section" class="nav-link"><span>Restaurant</span></a></li> -->
+	          <!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>Blog</span></a></li> -->
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact us</span></a></li>
+			  <li class="nav-item"><a href="signin" class="nav-link" id="show-login"><span>Sign In</span></a></li>
+			  <li class="nav-item"><a href="signup" class="nav-link" ><span>Sign up</span></a></li>
+			   <p><a href="dashboard" class="btn btn-primary py-2 px-2.5">DASHBOARD</a></p>
+
+
+			</ul>
+	      </div>
+	    </div>
+	  </nav>
+
+
+<style>
+                .button {
+                  background-color: #4CAF50; /* Green */
+                  border: none;
+                  color: white;
+                  padding: 15px 32px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  font-size: 16px;
+                  margin: 4px 2px;
+                  cursor: pointer;
+                }
+
+                .button1 {width: 200px;}
+
+
+                .styled-table {
+                    border-collapse: collapse;
+                    margin: 25px 0;
+                    font-size: 0.9em;
+                    font-family: sans-serif;
+                    min-width: 400px;
+                    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+                }
+
+                .styled-table thead tr {
+                    background-color: #e2c0bb;
+                    color: #ffffff;
+                    text-align: left;
+                }
+
+                .styled-table th,
+                .styled-table td {
+                    padding: 5px 13px;
+                }
+
+
+                .styled-table tbody tr {
+                    border-bottom: 1px solid #dddddd;
+                }
+
+                .styled-table tbody tr:nth-of-type(even) {
+                    background-color: #f3f3f3;
+                }
+
+                .styled-table tbody tr:last-of-type {
+                    border-bottom: 2px solid #e2c0bb;
+                }
+                .styled-table tbody tr.active-row {
+                    font-weight: bold;
+                    color: #e2c0bb;
+                }
+
+
+            </style>
+
+</head>
+
+<br>
+<br>
+
+
+<div style='background-color:#B4BCCC'>
+
+                <!-- <center><p style="color:white"><h2>LIST OF CUSTOMERS</h2>
+                </p></center> -->
+                
+            </div>
+            
+         <!-- <center>  <table id="example" class="styled-table" style="width:80%" >  </center>
+            <thead>
+                <tr>
+                    <th>CUSTOMER ID</th>
+                    <th>FIRSTNAME</th>
+                    <th>LASTNAME</th>
+                    <th>PASSWORD</th>
+                    <th>ADDRESS</th>
+                    <th>PHONE NUMBER</th>
+                    <th>ACTION</th>
+                </tr>
+            </thead>
+            <tbody>              
+                {% for cust in customers %}                          
+                <tr>
+                    <td>{{cust.cust_id}}</td>
+                    <td>{{cust.cust_fname}}</td>
+                    <td>{{cust.cust_lname}}</td>
+                    <td>{{cust.cust_pword}}</td>
+                    <td>{{cust.cust_address}}</td>
+                    <td>{{cust.cust_phone_number}}</td>
+                    <td>Update | Delete</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+          </table> -->
+
+          <div style='background-color:#B4BCCC'>
+                <center><p style="color:white"><h2>PENDING OF BOOKINGS</h2></p></center>
+            </div>
+            <div>
+               <!--  <p><h5>BOOKINGS</h5></p> -->
+            </div>
+            <center>  <table id="example" class="styled-table" style="width:80%" >  </center>
+            <thead>
+                <tr>
+                    <th>BOOKING ID</th>
+                    <th>DESTINATION</th>
+                    <th>DATE</th>
+                    <th>NO. OF CHILDREN</th>
+                    <th>NO. OF ADULT</th>
+                    <th>DEPART</th>
+                     <th>RETURN</th>
+                    <th>ACTION</th>
+                </tr>
+            </thead>
+            <tbody>              
+              <p><a href="{% url 'my_bookings_view' %}" class="btn btn-primary py-2 px-2.5">+</a></p>
+                
+              {% for book in bookings %}   
+
+                <tr>
+                  
+                    <td>{{book.id}}</td>
+                    <td>{{book.book_name}}</td>
+                    <td>{{book.book_date}}</td>
+                    <td>{{book.book_no_children}}</td>
+                    <td>{{book.book_no_adult}}</td>
+                    <td>{{book.book_depart}}</td>
+                    <td>{{book.book_return}}</td>
+                    <td>
+                      <a type="button" class="btn btn-secondary" href="#" data-toggle="modal" data-target="#newModal-{{book.id}}">VIEW</a>
+
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal-{{book.id}}">
+                        DELETE
+                      </button>
+                  </td>
+                </tr>
+
+                   <!-- Modal VIEW-->
+                   <div class="modal fade" id="newModal-{{book.id}}" tabindex="-1" role="dialog" aria-labelledby="newModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header" style="background-color:#e2c0bb">
+                          <h5 class="modal-title">VIEW DETAILS</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <form id="updateForm" method="post" >
+                        {% csrf_token %}
+                        <div class="modal-body">
+                          <input type="text" name="booking-id" value = {{book.id}} hidden>
+                          <div class="row">
+                            <div class="col-12" id="startup-tab-1">
+                                <div class = "row">
+
+                                  <div class = "col-sm-4">
+                                    <label>Destination</label>
+                                    <input type="text" class="form-control" id="id-bookName" placeholder="Destination"  name="booking-book_name" value ={{book.book_name}}>
+                                  </div>
+
+                                  <div class = "col-sm-4">
+                                    <label>Date</label>
+                                    <input type="date" class="form-control" id="id-bookDate" placeholder="Date"  name="booking-book_date" value ={{book.book_date}}>
+                                  </div>
+                                </div>
+                                <div class = "row">
+                                <div class = "col-sm-6">
+                                  <label>Number of children</label>
+                                  <input type="text" class="form-control" id="id-noChildren" placeholder="Number of Children"  name="booking-book_no_children" value ={{book.book_no_children}}>
+                                </div>
+                                <div class = "col-sm-6">
+                                  <label>Number of Adult</label>
+                                  <input type="text" class="form-control" id="id-add-city" placeholder="Number of Adult"  name="booking-book.book_no_adult" value ={{book.book_no_adult}}>
+                                </div>
+                              </div>
+                              <div class = "row">
+                                <div class = "col-sm-6">
+                                  <label>Depart</label>
+                                  <input type="date" class="form-control" id="id-bdate" name="booking-book_depart" value = {{book.book_depart}}>
+                                </div>
+                                <div class = "col-sm-6">
+                                  <label>Return</label>
+                                  <input type="date" class="form-control" id="id-bplace" placeholder="Birthplace" name="booking-book_return" value = {{book.book_return}}>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">  
+                            <button class="btn btn-secondary"   type="submit" id = "btnUpdate" name = "btnUpdate" class="button">UPDATE</button>                                  
+                            <button class="btn btn-primary" type="button" class="button btn-secondary" data-dismiss="modal">CLOSE</button>                          
+                        </div>
+                      </div>
+                    </form>
+                    </div>
+                  </div>
+
+                   <!-- Modal DELETE-->
+
+                  <div class="modal fade" id="exampleModal-{{book.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header" style="background-color:#e2c0bb">
+                          <h5 class="modal-title">DELETE RECORD</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <form id="deleteForm" method="post" >
+                        {% csrf_token %} 
+                        <div class="modal-body">                       
+                          <input type="text" name="bbooking-id" value = {{book.id}} hidden>
+                          Are you sure you want to delete this record?
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">NO</button>
+                          <button type="submit" id = "btnDelete" name = "btnDelete" class="btn btn-primary">YES</button>
+                        </div>
+                      </div>
+                    </form>
+                    </div>
+                  </div>
+
+
+                {% endfor %}
+            </tbody>
+          </table>
+
+           <!-- <div style='background-color:#B4BCCC'>
+                <center><p style="color:white"><h2>CONFIRMED BOOKINGS</h2></p></center>
+            </div> -->
+            
+            <!-- <center>  <table id="example" class="styled-table" style="width:80%" >  </center>
+            <thead>
+                <tr>
+                    <th>SEQ ID</th>
+                    <th>CUSTOMER ID</th>
+                    <th>BOOKING ID</th>
+                    <th>ACTION</th>
+                </tr>
+            </thead>
+            <tbody>              
+                {% for blist in booklist %}                          
+                <tr>
+                    <td>{{blist.seqid}}</td>
+                    <td>{{blist.cust_id.cust_id}}</td>
+                    <td>{{blist.book_id.book_id}}</td>
+                    <td>Update | Delete</td>
+                    <td>
+                      <a type="button" class="btn btn-primary" href="#" data-toggle="modal" data-target="#newModal-{{student.id}}">VIEW</a>
+
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal-{{student.id}}">
+                        DELETE
+                      </button>
+                  </td>
+                </tr>
+
+                
+
+                {% endfor %}
+            </tbody>
+          </table> -->
+
+          <div style='background-color:#B4BCCC'>
+                <center><p style="color:white"><h2>PENDING OF PAYMENTS</h2></p></center>
+            </div>
+            <div>
+              <!--   <p><h5>PAYMENTS</h5></p> -->
+            </div>
+            <center>  <table id="example" class="styled-table" style="width:80%" >  </center>
+            <thead>
+                <tr>
+                    <th>RECEIPT</th>
+                    <th>DATE</th>
+                    <th>AMOUNT</th>
+                    <th>ACTION</th>
+                    <p><a href="listOfPayment" class="btn btn-primary py-2 px-2.5">+</a></p>
+                </tr>
+            </thead>
+            <tbody>              
+                {% for pay in payments %}                          
+                <tr>
+                    <td>{{pay.pay_receipt}}</td>
+                    <td>{{pay.pay_date}}</td>
+                    <td>{{pay.pay_amount}}</td>
+                    <td>
+                      <a type="button" class="btn btn-secondary" href="#" data-toggle="modal" data-target="#newModal-{{pay.id}}">VIEW</a>
+
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal-{{pay.id}}">
+                        DELETE
+                      </button>
+                  </td>
+                </tr>
+
+                <!-- Modal VIEW-->
+                <div class="modal fade" id="newModal-{{pay.id}}" tabindex="-1" role="dialog" aria-labelledby="newModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header" style="background-color:#e2c0bb">
+                        <h5 class="modal-title">VIEW DETAILS</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <form id="updateForm" method="post" >
+                      {% csrf_token %}
+                      <div class="modal-body">
+                        <input type="text" name="pay-id" value = {{pay.id}} hidden>
+                        <div class="row">
+                          <div class="col-12" id="startup-tab-1">
+                              <div class = "row">
+                                <div class = "col-sm-4">
+                                  <label>Pay Receipt</label>
+                                  <input type="text" class="form-control" id="id-firstname" placeholder="Receipt" name="pay-pay_receipt" value ={{pay.pay_receipt}}>
+                                </div>
+                                <div class = "col-sm-4">
+                                  <label>Date</label>
+                                  <input type="date" class="form-control" id="id-middlename" placeholder="Date"  name="pay-pay_date" value ={{pay.pay_date}}>
+                                </div>
+                                <div class = "col-sm-4">
+                                  <label>Amount</label>
+                                  <input type="text" class="form-control" id="id-lastname" placeholder="Amount"  name="pay-pay_amount" value ={{pay.pay_amount}}>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                      </div>
+                            <div class="modal-footer">  
+                              <button class="btn btn-secondary" type="submit" id = "btnUpdate" name = "btnUpdate1" class="button">UPDATE</button>                                  
+                              <button class="btn btn-primary" type="button" class="button btn-secondary" data-dismiss="modal">CLOSE</button>                          
+                          </div>
+                        </div>
+                      </div>
+                    
+                    </div>
+                  </form>
+                  </div>
+                </div>
+
+                <!-- Modal DELETE-->
+                <div class="modal fade" id="exampleModal-{{pay.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header" style="background-color:#e2c0bb">
+                        <h5 class="modal-title">DELETE RECORD</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <form id="deleteForm" method="post" >
+                      {% csrf_token %} 
+                      <div class="modal-body">                       
+                        <input type="text" name="ppay-id" value = {{pay.id}} hidden>
+                        Are you sure you want to delete this record?
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">NO</button>
+                        <button type="submit" id = "btnDelete" name = "btnDelete1" class="btn btn-primary">YES</button>
+                      </div>
+                    </div>
+                  </form>
+                  </div>
+                </div>
+
+                {% endfor %}
+            </tbody>
+          </table>
+
+         <!-- <div style='background-color:#B4BCCC'>
+                <center><p style="color:white"><h2>CONFIRMED PAYMENTS</h2></p></center>
+            </div>
+           
+            <center>  <table id="example" class="styled-table" style="width:80%" >  </center>
+            <thead>
+                <tr>
+                    <th>SEQ ID</th>
+                    <th>CUSTOMER ID</th>
+                    <th>BOOKING ID</th>
+                    <th>PAYMENT RECEIPT</th>
+                    <th>ACTION</th>
+                </tr>
+            </thead>
+            <tbody>              
+                {% for plist in paylist %}                          
+                <tr>
+                    <td>{{plist.seqid}}</td>
+                    <td>{{plist.cust_id.cust_id}}</td>
+                    <td>{{plist.book_id.book_id}}</td>
+                    <td>{{plist.pay_receipt.pay_receipt}}</td>
+                    <td>Update | Delete</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+          </table> -->
+
+         <!-- <div style='background-color:#B4BCCC'>
+                <center><p style="color:white" ><h2>ADMIN</h2></p></center>
+            </div>
+            
+           <center>  <table id="example" class="styled-table" style="width:80%" >  </center>
+            <thead>
+                <tr>
+                    <th>CODENAME</th>
+                    <th>EMAIL</th>
+                    <th>PASSWORD</th>
+                    <th>ACTION</th>
+                    <p><a href="{ % url 'my_admin_view' % }" class="btn btn-primary py-2 px-2.5">+</a></p>
+
+                </tr>
+            </thead>
+            <tbody>              
+                {% for admin in admin %}                          
+                <tr>
+                    <td>{{admin.admin_name}}</td>
+                    <td>{{admin.admin_email}}</td>
+                    <td>{{admin.admin_pass}}</td>
+                    <td>Update | Delete</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+          </table> -->
+
+<footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About <span><a href="index.html">Paglakbay</a></span></h2>
+              <p>Paglakbay Travel Booking System is a piece of software that allows travelers  to book flights online at anytime and anywhere.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Information</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Online Enquiry</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>General Enquiry</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Booking</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Privacy</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Refund Policy</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Call Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Experience</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Adventure</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Hotel and Restaurant</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Beach</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Nature</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Camping</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Party</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">Have a Questions?</h2>
+                <div class="block-23 mb-3">
+                  <ul>
+                    <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+                    <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+                    <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+    
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. </p> -->
+   <P>
+  Jesrael Carlo, Gildo CSIT327 G2-C1 AY 2021 - 2022 <i aria-hidden="true">
+  </P>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="{%static 'myapp1/ecoland-master/js/jquery.min.js' %}" type="text/javascript"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="{%static 'myapp1/ecoland-master/js/jquery-migrate-3.0.1.min.js' %}" type="text/javascript"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="{%static 'myapp1/ecoland-master/js/popper.min.js' %}" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="{%static 'myapp1/ecoland-master/js/bootstrap.min.js' %}" type="text/javascript"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="{%static 'myapp1/ecoland-master/js/jquery.easing.1.3.js' %}" type="text/javascript"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="{%static 'myapp1/ecoland-master/js/jquery.waypoints.min.js' %}" type="text/javascript"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="{%static 'myapp1/ecoland-master/js/jquery.stellar.min.js' %}" type="text/javascript"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="{%static 'myapp1/ecoland-master/js/owl.carousel.min.js' %}" type="text/javascript"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="{%static 'myapp1/ecoland-master/js/jquery.magnific-popup.min.js' %}" type="text/javascript"></script>
+  <script src="js/aos.js"></script>
+  <script src="{%static 'myapp1/ecoland-master/js/aos.js' %}" type="text/javascript"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="{%static 'myapp1/ecoland-master/js/jquery.animateNumber.min.js' %}" type="text/javascript"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="{%static 'myapp1/ecoland-master/js/scrollax.min.js' %}" type="text/javascript"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="{%static 'myapp1/ecoland-master/js/google-map.js' %}" type="text/javascript"></script>
+  
+  <script src="js/main.js"></script>
+  <script src="{%static 'myapp1/ecoland-master/js/main.js' %}" type="text/javascript"></script>
